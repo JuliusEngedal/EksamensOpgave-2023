@@ -5,6 +5,7 @@
 .topnav {
     position: relative;
     height: 63px;
+    
 }
 
 .topnav.nav-farve{
@@ -13,12 +14,14 @@
 
 .logo.none{
     opacity: 0;
+    
 }
 
 .logo{
     width: 45px;
-    padding: 5px;
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-top: 12px;
+    
 }
   
 
@@ -26,6 +29,7 @@
     display: none;
     color: white;
     opacity: 0;
+    
 }
 
 .myLinks.active {
@@ -52,7 +56,6 @@
     text-decoration: none;
     background-color: #849B97;
     font-size: 30px;
-    
     line-height: 50px;
 }
 
@@ -64,15 +67,17 @@
 .topnav>a{
     width: 45px;
     text-decoration: none;
+    margin-top: 15px;
     height: 42px;
+    
 }
   
 .icon {
     display: block;
     position: absolute;
-    right: 20px;
+    right: 15px;
     top: 0;
-    margin-top: 5px;
+    margin-top: 0px;
     background-color: #849B97;
     border-radius: 14px 0px 14px 0px;
 }
@@ -89,6 +94,7 @@
     margin: 5px 0;
     transition: 0.2s;
     width: 20px;
+    
 }
 
 .bl-1{
@@ -112,7 +118,7 @@
 @media only screen and (min-width:1440px) {
 
 
-  .topnav{
+/*   .topnav{
     display: flex;
   }
   .myLinks{
@@ -136,6 +142,6 @@
 
   .logo{
     width: 130px;
-  }
+  } */
 
 }

@@ -4,7 +4,7 @@ const Footer = {
 
 
     template : (footer) => `
-        <footer class="footer">
+        <div class="footer-container">
         <div class="footer-icons"> 
         <i class="fa-brands fa-square-facebook"></i>
         <i class="fa-brands fa-square-instagram"></i>
@@ -13,7 +13,7 @@ const Footer = {
         <h2 class="Zen"> <img src="/assets/fav.ico" alt="logo" class="footer-logo"> Gittes Glamping  </h2>
         </div>
     
-        </footer>
+        </div>
     `,
 
 
@@ -24,7 +24,7 @@ const Footer = {
 
     init : () => {
 
-        const FooterContainer = document.querySelector('.footer-container');
+        const FooterContainer = document.querySelector('.footer');
        
         let cont = FooterContainer;
 

@@ -42,7 +42,7 @@ const navigation = {
     // Template til rendring af vores menu.
     template : (navDataList) => 
     `<nav class="topnav">    
-    <img src="/assets/fav.ico" alt="logo" class="logo">
+    <img src="/assets/fav.ico" alt="logo" class="logo" href="../index.html">
  
     <div id="myLinks" class="myLinks">
       <ul>

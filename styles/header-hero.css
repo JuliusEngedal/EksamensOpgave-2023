@@ -1,0 +1,74 @@
+
+/* === HEADER/HERO FORSIDE === */
+
+.header-forside{
+    height: 820px;
+    background-image: url("/assets/image_00.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+
+}
+
+.header-forside:before{
+    
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 820px;
+    width: 100%;
+    background-color: #34626C80;
+   
+}
+
+.header-forside>.navigation>nav>img{
+    opacity: 0;
+    
+}
+
+
+.hero-forside>li{
+    position: absolute;
+    list-style: none;   
+    text-align: center;
+    width: 100%;
+    margin-top: 147px;
+}
+
+.hero-forside>li>img{
+    width: 88px;
+    margin-bottom: 20px;
+}
+
+.hero-forside>li>button{
+    margin-top: 25px;
+    background-color: #ffffff00;
+    width: 245px;
+    height: 104px;
+    color: white;
+    border: white 1px solid;
+    border-radius: 50px 0px 50px 0px;
+    
+}
+
+.hero-forside>li>button:hover{
+    background-color: #34626C;
+   
+}
+
+
+
+
+
+
+
+.header-ophold{
+    height: 820px;
+    background-image: url("/assets/image_01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

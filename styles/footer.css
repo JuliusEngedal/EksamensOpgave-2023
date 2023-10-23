@@ -1,0 +1,45 @@
+.footer-container{
+    height: 300px;
+    background-color: #2A4F57;
+}
+
+.footer{
+    background-color: #2A4F57;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    background-color: #2A4F57;
+
+}
+
+.footer-icons>i{
+    font-size: 45px;
+    color: white;
+    background-color:#2A4F57;
+    margin-top: 18%;
+    padding: 10px;
+}
+
+.footer-text{
+    display: flex;
+    height: 34px;
+    justify-content: center;
+    background-color: #2A4F57;
+    margin-top: 10%;
+}
+
+.footer-text>h2{
+    background-color: #2A4F57;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer-logo{
+    width: 34px;
+    background-color: #2A4F57;
+    margin-bottom: -5px;
+}
+

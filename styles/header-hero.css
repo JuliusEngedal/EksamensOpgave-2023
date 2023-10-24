@@ -72,3 +72,45 @@
     background-size: cover;
     background-position: center;
 }
+
+
+
+
+
+
+.header-aktiviteter{
+    height: 455px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image:  url("/assets/image_04.jpg");
+
+/* Skal ændres for responsivitet ved et breakpoint inden tablet */
+
+    background-size: 1300px; /* This will make the image cover the entire container */
+    background-position: -710px; /* This centers the image both vertically and horizontally */
+    
+    
+}
+
+
+.aktiviteter-hero>h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 130px;
+    
+}
+
+
+.header-aktiviteter:before{
+    
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 455px;
+    width: 100%;
+    background-color: #34626C80;
+   
+}
+

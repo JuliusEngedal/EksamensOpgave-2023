@@ -89,9 +89,23 @@
     background-size: 1300px; /* This will make the image cover the entire container */
     background-position: -710px; /* This centers the image both vertically and horizontally */
     
+}
+
+@media only screen and (min-width:588px){
+    .header-aktiviteter{
+        background-size: 1500px;
+        background-position: right;
+    }
     
 }
 
+@media only screen and (min-width:768px){
+    .header-aktiviteter{
+        background-size: 1800px;
+        
+    }
+    
+}
 
 .aktiviteter-hero>h1{
     text-align: center;

@@ -10,6 +10,8 @@
     height: 505px;
     border-radius: 70px 0px 70px 0px;
     margin-top: -83px;
+    margin-bottom: -83px;
+    position: relative;
 }
 
 .aktiv-indledning>h2{
@@ -21,4 +23,17 @@
     padding: 0px 24px 0px 24px;
     text-align: center;
     font-size: 14px;
+}
+
+
+
+@media only screen and (min-width:768px){
+    .aktiv-indledning{
+        height: 400px;
+    }
+    
+    .aktiv-indledning>h2{
+        padding: 83px 50px 43px 54px;
+        text-align: center;
+    }
 }

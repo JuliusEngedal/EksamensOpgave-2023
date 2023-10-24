@@ -4,4 +4,5 @@
 @import "/styles/header-hero.css";
 @import "/styles/Kundeudtalelser.css";
 @import "/styles/gitte.css";
-@import "styles/indledning.css";
+@import "/styles/indledning.css";
+@import "/styles/accordian.css"

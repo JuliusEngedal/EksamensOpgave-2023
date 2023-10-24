@@ -23,15 +23,18 @@ h3{
     font-family: 'Zen Loop', cursive ;
 }
 
-p{
-    font-family: 'Nanum Gothic', sans-serif;
-}
-
 h4{
     font-size: 30px;
     font-weight: 200;
     font-family: 'Zen Loop', cursive ;
 }
+
+
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
 
 .Zen{
     font-family: 'Zen Loop', cursive ;

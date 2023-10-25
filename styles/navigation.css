@@ -1,6 +1,8 @@
 
 
-
+.navigation.none>.topnav>a>img{
+    display: none;
+}
 
 .topnav {
     position: relative;
@@ -13,15 +15,15 @@
 }
 
 .logo.none{
-    opacity: 0;
-    
+    display: none; 
 }
 
 .logo{
     width: 45px;
     margin-left: 15px;
     margin-top: 12px;
-    
+    position: fixed;
+    z-index: 10;
 }
   
 
@@ -37,7 +39,7 @@
   height: 250px;
   display: flex;
   
-  position: absolute;
+  position: fixed;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -64,6 +66,10 @@
     background-color: #849B97;
 }
 
+.myLinks.active>ul{
+    margin-top: 20px;
+}
+
 .topnav>a{
     width: 45px;
     text-decoration: none;
@@ -74,7 +80,8 @@
   
 .icon {
     display: block;
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     right: 15px;
     top: 0;
     margin-top: 0px;

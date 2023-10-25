@@ -132,7 +132,7 @@
 
 
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:728px){
 
     .aktiviteter-container{
         display: flex;
@@ -164,4 +164,15 @@
 
     }
     
+}
+
+@media only screen and (min-width:1440px){
+
+
+    .aktiviteter-accordian{
+        background-size: cover;
+        background-position: center;
+    }
+
+
 }

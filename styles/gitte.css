@@ -33,11 +33,7 @@
 }
 
 .gitte-img{
-   
-
-
     object-fit: cover;
-
     width: 173px;
     height: 173px;
     border-radius: 50%;
@@ -50,13 +46,31 @@
 }
 
 .ophold-btn{
-    
     margin: 65px 65px 0px 65px;
     background-color: #839B97;
-    width: 245px;
+    width: 300px;
     height: 104px;
     color: white;
     border: 1px;
     border-radius: 50px 0px 50px 0px;
-    
+    transition: .1s;
+}
+
+.ophold-btn:hover{
+    background-color: #2A4F57;
+    transition: .1s;
+}
+
+
+@media only screen and (min-width:728px){
+    .gitte-container{
+        height: 730px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .gitte-list>p{
+        font-size: 20px;
+        padding: 0 10% 0 10%;
+    }
 }

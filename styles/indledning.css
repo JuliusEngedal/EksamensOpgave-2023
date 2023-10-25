@@ -4,7 +4,7 @@
 
 
 
-.aktiv-indledning{
+.indledning{
     background-color: #34626C;
     color: white;
     height: 505px;
@@ -14,12 +14,12 @@
     position: relative;
 }
 
-.aktiv-indledning>h2{
+.indledning>h2{
     padding: 83px 50px 43px 54px;
     text-align: center;
 }
 
-.aktiv-indledning>p{
+.indledning>p{
     padding: 0px 24px 0px 24px;
     text-align: center;
     font-size: 14px;
@@ -28,12 +28,29 @@
 
 
 @media only screen and (min-width:768px){
-    .aktiv-indledning{
+
+    .indledning{
         height: 400px;
     }
     
-    .aktiv-indledning>h2{
-        padding: 83px 50px 43px 54px;
+    .indledning>h2{
+        padding: 50px 50px 43px 54px;
         text-align: center;
     }
+
+    .indledning>p{
+        padding: 0 20% 0 20%;
+    }
+
+
 }
+
+
+@media only screen and (min-width:1440px){
+    .indledning>p{
+        padding: 0 20% 0 20%;
+        font-size: 20px;
+    }
+}
+
+

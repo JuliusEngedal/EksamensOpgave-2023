@@ -62,19 +62,46 @@
 
 
 
-
+/* ==== Header ophold ==== */
 
 
 .header-ophold{
-    height: 820px;
+    height: 455px;
+    width: 100%;
     background-image: url("/assets/image_01.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size:  790px;
+    background-position: right;
+    
+}
+
+.header-ophold::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 455px;
+    width: 100%;
+    background-color: #34626C80;
+}
+
+.ophold-hero{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 130px;
+}
+
+@media only screen and (min-width:1024px){
+    .header-ophold{
+        background-position: center;
+        background-size: cover;
+    }
+
 }
 
 
-
+/* ==== Header aktiviteter ==== */
 
 
 
@@ -102,9 +129,14 @@
 @media only screen and (min-width:768px){
     .header-aktiviteter{
         background-size: 1800px;
-        
     }
-    
+}
+
+@media only screen and (min-width:1440px){
+    .header-aktiviteter{
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .aktiviteter-hero>h1{
@@ -127,4 +159,7 @@
     background-color: #34626C80;
    
 }
+
+
+
 

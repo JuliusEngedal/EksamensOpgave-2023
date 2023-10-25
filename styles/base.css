@@ -9,12 +9,14 @@ h1{
     font-size: 80px;
     font-weight: 200;
     font-family: 'Zen Loop', cursive ;
+    color: white;
 }
 
 h2{
     font-size: 60px;
     font-weight: 200;
     font-family: 'Zen Loop', cursive ;
+    color: white;
 }
 
 h3{
@@ -27,11 +29,13 @@ h4{
     font-size: 30px;
     font-weight: 200;
     font-family: 'Zen Loop', cursive ;
+    color: white;
 }
 
 
 p{
     font-family: 'Nanum Gothic', sans-serif;
+    color: white;
 }
 
 

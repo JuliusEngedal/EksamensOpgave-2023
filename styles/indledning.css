@@ -40,6 +40,7 @@
 
     .indledning>p{
         padding: 0 20% 0 20%;
+        
     }
 
 
@@ -54,3 +55,6 @@
 }
 
 
+.kontakt-indledning{
+    border-radius: 70px 0 0 0 ;
+}

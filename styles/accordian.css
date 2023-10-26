@@ -174,5 +174,16 @@
         background-position: center;
     }
 
+    .aktivitet-overskrift>h2{
+        margin-top: 5%;
+    }
+
+}
+
+@media only screen and (min-width:1920px) {
+
+    .aktivitet-overskrift>h2{
+        margin-top: 4%;
+    }
 
 }

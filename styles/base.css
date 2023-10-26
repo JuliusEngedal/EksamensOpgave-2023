@@ -32,6 +32,12 @@ h4{
     color: white;
 }
 
+h5{
+    font-size: 20px;
+    font-family: 'Zen Loop', cursive ;
+    font-weight: 200;
+    color: white;
+}
 
 p{
     font-family: 'Nanum Gothic', sans-serif;

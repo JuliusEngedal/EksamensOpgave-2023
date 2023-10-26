@@ -43,7 +43,7 @@
     margin-bottom: 20px;
 }
 
-.hero-forside>li>button{
+.hero-forside>li>a>button{
     margin-top: 25px;
     background-color: #ffffff00;
     width: 245px;
@@ -51,10 +51,11 @@
     color: white;
     border: white 1px solid;
     border-radius: 50px 0px 50px 0px;
+    cursor: pointer;
     
 }
 
-.hero-forside>li>button:hover{
+.hero-forside>li>a>button:hover{
     background-color: #34626C;
    
 }
@@ -163,3 +164,62 @@
 
 
 
+
+
+.hero-kontakt{
+    background-image: url(/assets/image_03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 455px;
+    margin-top: -63px;
+    text-align: center;
+}
+
+.hero-kontakt::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 455px;
+    width: 100%;
+    background-color: #34626C80;
+}
+
+.hero-kontakt>h1{
+    position: relative;
+    padding-top: 40%;
+}
+
+
+@media only screen and (min-width: 728px){
+
+    .hero-kontakt>h1{
+        padding-top: 20%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    .hero-kontakt>h1{
+        padding-top: 15%;
+    }
+
+}
+
+@media only screen and (min-width: 1440px){
+
+    .hero-kontakt>h1{
+        padding-top: 10%;
+    }
+
+}
+
+@media only screen and (min-width: 1920px){
+
+    .hero-kontakt>h1{
+        padding-top: 7%;
+    }
+
+}

@@ -6,4 +6,20 @@ service.get = async (type) => {
 
 }
 
+
+service.submitMember = (postObj) => {
+
+    return fetch(`https://glamping.webmcdm.dk/contact`, {
+
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'   
+        },
+        body : JSON.stringify(postObj),
+
+    }).then((response) => response.json())
+
+};
+
+
 export default service;

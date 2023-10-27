@@ -1,8 +1,7 @@
 import {validateEmail} from "./service/helpers.js";
 import service from "./service/service.js";
-/* 
-    Subscribe
-*/
+
+
 const subscribe = {
 
     formResponseTmpl : (response) => `<div class="subscribe-result"><h4>Hej ${response.data.name} <br> Tak for din besked! <br> Du høre fra os snarest.</h4><a href="./Kontakt.html "><div class="subscribe-result-button"><h4> TILBAGE </h4></div></a> </div>`,
@@ -41,13 +40,12 @@ const subscribe = {
       
             if(validateEmail(e.target.value)) {
 
-                // Eller endnu bedre classList.add() istedet for dirkete på style
+                
                 e.target.style.borderColor = "white"
                 e.target.style.color = "white"
                 
             } else {
 
-                // Eller endnu bedre classList.add() istedet for dirkete på style
                 e.target.style.borderColor = "red"
                 e.target.style.color = "red"
 
@@ -60,7 +58,6 @@ const subscribe = {
        
         } 
 
-        // alert('Du ændre i ' + e.target.name)
     },
 
     init : async () => {

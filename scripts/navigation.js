@@ -1,26 +1,9 @@
 
 
 
-
-/*
-
-    Navigation Module
-
-*/
-
-
-
 const navigation = {
 
     navData : [
-        {
-            page: '../index.html',
-            title: 'Forside'
-        },
-        {
-            page: '/pages/Ophold.html',
-            title: 'Ophold'
-        },
         {
             page: '/pages/Kontakt.html',
             title: 'Kontakt'
@@ -28,18 +11,26 @@ const navigation = {
         {
             page: '/pages/Aktiviteter.html',
             title: 'Aktiviteter'
-        },
-      /*   {
-            page: '/pages/subscribe.html',
-            title: 'Bliv Medlem'
+        }, 
+        {
+            page: '/pages/Ophold.html',
+            title: 'Ophold'
         },
         {
-            page: '/pages/basket.html',
-            title: 'Kurv/Kvittering/Bestilling'
-        } */
+            page: '/pages/detailPage.html?stayId=6533c19ad89bd7c9ba8de72e',
+            title: 'Weekendtur'
+        },
+        {
+            page: '/pages/detailPage.html?stayId=6533c22ed89bd7c9ba8de735',
+            title: 'Romantisk Getaway'
+        },
+        {
+            page: '/pages/detailPage.html?stayId=6533c25dd89bd7c9ba8de739',
+            title: 'Familie Pakken'
+        }
     ],
 
-    // Template til rendring af vores menu.
+   
     template : (navDataList) => 
     `<nav class="topnav">    
     <a href="../../index.html"><img src="/assets/fav.ico" alt="logo" class="logo" ></a>
@@ -60,21 +51,8 @@ const navigation = {
     </nav>`,
 
 
-    // Update metode vi kalder når kurven opdateres.
-    update : () => {
- 
-        console.log('Navigation Update')
-        const amountElements = document.querySelectorAll('.navigation .basket-amount');
-    
-        if(amountElements)
-        {
-            amountElements.forEach( (amountElem) => {
-                amountElem.innerHTML = basketservice.getProductCount()
-            });
-        }
-    },
 
-    // Events vi benytter i navigationen.
+    
     addEvents : () => {
 
         const Burgermenu = document.querySelector('#myLinks');
@@ -92,8 +70,7 @@ const navigation = {
         }
     },
 
-    // Initialisere vores navigation. Skriver template, tilføjer events og kalder update for at opdatere kurven
-    // Hvis der allerede skulle være en ordre.
+   
     init : () => {
 
         const navigationElement = document.querySelector('.navigation');
@@ -102,9 +79,9 @@ const navigation = {
     
             navigationElement.innerHTML = navigation.template(navigation.navData);
     
-         /*    basket.init(); */
+      
             navigation.addEvents();
-            navigation.update();
+          
     
         }
         

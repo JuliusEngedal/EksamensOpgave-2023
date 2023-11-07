@@ -80,13 +80,13 @@ const detailPage = {
 
                         
                     }
-                } else {
+                }  else {
                     console.error("No data found for the specified ID.");
                 }
-            } catch (error) {
+            }catch (error) {
                 console.error("Error fetching data:", error);
             }
-        } else {
+        }else {
             console.error("No stayId provided in the URL.");
         }
     }
